@@ -1,13 +1,80 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background:gray;
+}
+.container{
+  height:80vh;
+  width:25vw;
+  background:white;
+  border-radius:20px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+
+}
+.h1{
+  text-align:center;
+  background:#8566aa;
+  color:white;
+}
+.input{
+  width:62%;
+  font-size:1.5rem;
+  margin-left:8%;
+  border:none;
+  outline:none;
+  text-align:center;
+  border-bottom:2px solid#8566aa;
+  background:transparent;
+  
+  
+}
+.btn{
+  background:#8566aa;
+  color:white;
+  border-radius:46%;
+  outline:none;
+  border:none;
+  min-height: 40px;
+  width:40px;
+  font-size:30px;
+  margin-left:10px;
+
+}
+.btn:active{
+  background:gray;
+  box-shadow:3px 2px black;
+}
+.btn:hover{
+  background:#20bf6b;
+  box-shadow:1px 1px black;
+}
+.btn1{
+  background:#8566aa;
+  color:white;
+  border-radius:46%;
+  outline:none;
+  border:none;
+  min-height: 40px;
+  width:40px;
+  font-size:30px;
+  margin-left:10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn1:hover{
+  background:red;
+  box-shadow:1px 1px black;
+}
+
+ol{
+  margin-top:20%;
+  list-style:none;
+}
+ol li{
+  padding-left:0px;
+  text-align:left;
+  font-size:1.5rem;
+  font-weight:500;
+  color:#8566aa;
+  text-transform:capitalize;
 }
