@@ -21,6 +21,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import FilterListIcon from '@material-ui/icons/FilterList';
 import AddIcon from '@material-ui/icons/Add';
 import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
 
 function createData(name, calories, fat, carbs, protein) {
   return { name, calories, fat, carbs, protein };
@@ -161,7 +162,7 @@ const EnhancedTableToolbar = (props) => {
         </Typography>
       ) : (
         <Typography className={classes.title} variant="h6" id="tableTitle" component="div">
-          <Button style={{ color:'white',backgroundColor:'blue',borderRadius:25}}><AddIcon/>NEW DEMAND</Button>
+          <Button style={{ color:'white',backgroundColor:'#0a6484',borderRadius:25}}><AddIcon/>NEW DEMAND</Button>
         </Typography>
       )}
 
@@ -174,7 +175,7 @@ const EnhancedTableToolbar = (props) => {
       ) : (
         <Tooltip title="Filter list">
           <IconButton aria-label="filter list">
-            <FilterListIcon />
+            <TextField />
           </IconButton>
         </Tooltip>
       )}

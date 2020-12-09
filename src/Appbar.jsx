@@ -81,7 +81,7 @@ function Appbar() {
     const classes = useStyles();
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="static" style={{backgroundColor:'#0a6484'}}>
                 <Toolbar>
                     <Typography className={classes.title} variant="h6" noWrap>
                         Super Admin Dashboard
